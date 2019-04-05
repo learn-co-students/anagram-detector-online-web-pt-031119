@@ -1,0 +1,17 @@
+
+[1mFrom:[0m /home/learn/code/labs/anagram-detector-online-web-pt-031119/lib/anagram.rb @ line 13 Anagram#match:
+
+    [1;34m12[0m: [32mdef[0m [1;34mmatch[0m (list)
+ => [1;34m13[0m:     binding.pry 
+    [1;34m14[0m:     matches = {}
+    [1;34m15[0m: 
+    [1;34m16[0m:     list.each [32mdo[0m |list_word|
+    [1;34m17[0m:         [32mif[0m list_word.split([31m[1;31m"[0m[31m[1;31m"[0m[31m[0m).sort == @word
+    [1;34m18[0m:             matches << list_word
+    [1;34m19[0m:             matches
+    [1;34m20[0m:         [32melse[0m
+    [1;34m21[0m:             matches 
+    [1;34m22[0m:         [32mend[0m 
+    [1;34m23[0m:     [32mend[0m 
+    [1;34m24[0m: [32mend[0m
+
